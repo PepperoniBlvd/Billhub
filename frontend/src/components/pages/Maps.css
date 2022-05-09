@@ -1,0 +1,48 @@
+
+  h1{
+    position:relative;
+    left: 1rem;
+  }
+  h2{
+    position: absolute;
+    left: 1rem;
+    color: #282c34;
+  
+  }
+  
+  .search{
+    position: absolute;
+    top: 6rem;
+    left: 55%;
+    transform: translateX(-40%);
+    width: 200%;
+    max-width: 400px;
+    z-index: 10;
+  }
+  h3{
+    position:relative;
+    padding-left: 8rem;
+  padding-right: 8rem;
+  }
+  .info{
+
+    display: flex;
+    flex-direction:column;
+  
+  }
+  .data{
+    align-items: top;
+    display: flex;
+    padding-left: 8px;
+    flex-direction:column;
+    font-size: calc(2px + 1vmin);
+    color: rgb(0, 0, 0);
+  }
+  .text{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
